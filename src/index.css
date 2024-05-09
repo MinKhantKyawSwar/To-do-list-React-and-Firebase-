@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +9,130 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card {
+  background-color: cornflowerblue;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.card-ctr{
+  padding: 8px 20px;
+  margin-top: 20px;
+  color: white;
+
+}
+
+input{
+  width: 60%;
+  padding: 10px 4px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.submit-btn{
+  background-color: #fff;
+  color: cornflowerblue;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  color: cornflowerblue;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.navbar button{
+  cursor: pointer;
+  background-color: cornflowerblue;
+  color: #fff;
+  border: none;
+  padding: 12px 6px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.message {
+  text-align: center;
+  color: cornflowerblue;
+  font-size: 25px;
+  margin: 20px 0;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.error{
+  color: red;
+}
+
+svg{
+  cursor: pointer;
+  width: 30px;
+}
+
+.nav-right{
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+}
+
+.total-notes{
+  color: cornflowerblue;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: default;
+}
+.nav-btn{
+  cursor: pointer;
+  background-color: cornflowerblue;
+  color: #fff;
+  border: none;
+  margin-top: 5px;
+  padding: 10px 10px;
+  border-radius: 8px;
+  width: 30px;
+  margin-right: 2px;
+}
+
+.nav-btn:hover{
+  background-color: rgba(100, 148, 237, 0.781);
+}
+
+.nav-btn:active{
+  background-color: rgb(100, 123, 237);
+}
+
+.intro{
+  text-align: center;
+  color: cornflowerblue;
+}
+
+.intro h3{
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.intro p{
+  font-size: 15px;
+  margin-top: -15px;
 }
