@@ -10,6 +10,11 @@ const AddNote = ({ getNotes }) => {
     const addNote = async (e) => {
         e.preventDefault();
 
+        if(note.trim().length === 0){
+            alert("Please enter an character.");
+            return
+        }
+
         try{
             await fetch(
                 "https://firenote-a11cd-default-rtdb.firebaseio.com/note.json", 

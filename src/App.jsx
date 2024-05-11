@@ -24,6 +24,7 @@ function App() {
   // get notes 
   const getNotes = async () => {
     setLoading(true);
+
     try{
       const response = await fetch(
         "https://firenote-a11cd-default-rtdb.firebaseio.com/note.json"
